@@ -1,0 +1,131 @@
+# Adidas Webstore Shoe Analysis
+
+Welcome to my analysis of the Adidas Webstore Shoe data! This project focuses on inventory management and explores insights to help optimize stock levels and improve operational efficiency.
+
+---
+
+## Project Objective
+The goal of this project is to analyze e-commerce data from the Adidas webstore to gain actionable insights about inventory patterns. By examining stock availability across different dimensions, we aim to:
+
+- Identify products with low stock levels.
+- Spot trends in stock availability by country and shoe size.
+- Provide data-driven recommendations to enhance inventory planning.
+
+---
+
+## Dataset Overview
+This project uses three primary datasets:
+
+1. **Country Dimension Data**: Information about the countries where Adidas operates.
+2. **Shoe Dimension Data**: Details about the sizes and dimensions of shoes.
+3. **Shoe Fact Data**: Facts about inventory, including product IDs, stock availability, and other metrics.
+
+Key columns in the fact table include:
+
+- `product_id`: Unique identifier for each shoe.
+- `availability`: Quantity left in stock (not sold).
+- `country`: Country where the stock is available.
+- `size`: Shoe size.
+- `category`: Shoe type or classification.
+
+---
+
+## Tools and Techniques
+
+This project leverages:
+
+- **Python**: For data cleaning, analysis, and visualization.
+  - Libraries used: `pandas`, `matplotlib`, `seaborn`, `numpy`
+- **Power BI**: For creating interactive dashboards to visualize inventory trends.
+
+---
+
+## Key Insights
+
+Here are some findings from the analysis:
+
+1. **Low Stock Alerts**:
+   - Identified products with critical stock levels (<10 units).
+   - Highlighted countries with recurring low-stock items.
+
+2. **Country Trends**:
+   - Certain regions (e.g., US with running shoes, Germany with football shoes) showed high demand for specific shoe categories.
+
+3. **Size Analysis**:
+   - Smaller sizes (e.g., Sizes 30 -36 Germany) were consistently overstocked, leading to potential inefficiencies.
+   - Larger sizes (e.g., Sizes 14 -18 in the UK) faced frequent shortages in multiple regions.
+
+---
+
+## Visualizations
+
+**Python Visualizations:**
+- Heatmaps showing stock availability across sizes and countries.
+- Bar plots highlighting categories with the highest and lowest stock levels.
+
+**Power BI Dashboard:**
+- Dynamic filters for country, size, and category.
+- Product Stock Availability by Shoe Name and Gender: A stacked bar chart showcasing availability trends across different shoe names and gender categories.
+- Product Stock Availability by Size: A clustered column chart highlighting availability across various shoe sizes.
+- Product Availability Table: A detailed table displaying:
+   - Availability
+   - Product Name
+   - Best for Wear
+   - Stock Status
+
+![Dashboard Preview](https://yourimagelinkhere.com) *(Replace with actual image or link to dashboard)*
+
+---
+
+## Recommendations
+
+Based on the insights:
+
+1. **Reallocate Inventory**:
+   - Shift overstocked items (small sizes) to regions with higher demand.
+   - Address shortages in larger sizes by increasing production or reallocating stock.
+
+2. **Seasonal Planning**:
+   - Adjust stock levels proactively based on seasonal trends to meet demand fluctuations.
+
+3. **Regular Monitoring**:
+   - Implement a real-time inventory tracking system to avoid critical stock-outs.
+
+---
+
+## How to Reproduce
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/adidas_webstore_analysis.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn numpy
+   ```
+
+3. Run the analysis notebook:
+   ```bash
+   Adidas.ipynb
+   ```
+
+4. Access the Power BI report via the provided link or download the `.pbix` file from this repository.
+
+---
+
+## Future Work
+
+- Expand the analysis to include sales data to compare stock availability against demand.
+- Incorporate machine learning to predict stock shortages and optimize reorder levels.
+
+---
+
+## Contact
+Feel free to reach out with questions or feedback:
+
+- **Email**: paolo.sia@outlook.com
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/paolo-sia/)
+- **GitHub**: [GitHub Portfolio](https://github.com/paolosia/Data-Analyst-Portfolio/tree/master)
+
+Thank you for exploring this project!
