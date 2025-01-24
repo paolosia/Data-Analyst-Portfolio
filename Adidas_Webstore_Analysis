@@ -49,7 +49,7 @@ Here are some findings from the analysis:
    - Highlighted countries with recurring low-stock items.
 
 2. **Country Trends**:
-   - Certain regions (e.g., US with running shoes, Germany with football shoes) showed high demand for specific shoe categories.
+   - Certain regions (e.g., most shoes in UK are sold out) showed high demand for specific shoe categories.
 
 3. **Size Analysis**:
    - Smaller sizes (e.g., Sizes 30 -36 Germany) were consistently overstocked, leading to potential inefficiencies.
@@ -82,8 +82,8 @@ Here are some findings from the analysis:
 Based on the insights:
 
 1. **Reallocate Inventory**:
-   - Shift overstocked items (small sizes) to regions with higher demand.
-   - Address shortages in larger sizes by increasing production or reallocating stock.
+   - Shift overstocked items to regions with higher demand.
+   - Address shortages by increasing production or reallocating stock.
 
 2. **Seasonal Planning**:
    - Adjust stock levels proactively based on seasonal trends to meet demand fluctuations.
@@ -97,7 +97,7 @@ Based on the insights:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/adidas_webstore_analysis.git
+   git clone https://github.com/paolosia/Adidas_Webstore_Analysis.git
    ```
 
 2. Install dependencies:
