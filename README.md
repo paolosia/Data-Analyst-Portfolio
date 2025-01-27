@@ -20,6 +20,15 @@ This repository showcases a collection of data analysis projects undertaken to d
         * `Bank_Customer_Churn_Analysis.ipynb`: Jupyter Notebook containing Python code for data analysis.
         * `Bank_Customer_Churn_Analysis_Report.pdf`: PDF report of the analysis.
 
+* **Energy Consumption and Economic Growth:**
+    * Analyzed the relationship between energy consumption and GDP to understand patterns across different income levels and regions.
+    * Performed data cleaning, transformation, and exploratory analysis using Python.
+    * Created interactive dashboards in Power BI to showcase trends and correlations between GDP and energy usage.
+    * **Contents:**
+        * `Energy_Consumption_Data.ipynb`: Jupyter Notebook with Python analysis and visualizations.
+        * `Energy_Consumption_Data.ipynb`: Power BI report file.
+        * `Energy_Consumption_and_Economic_Growth_Report.pdf.pdf`: Detailed PDF report summarizing findings, insights, and recommendations.
+
 **Skills Demonstrated:**
 
 * **Data Wrangling & Cleaning:** Data cleaning, transformation, and feature engineering using Python libraries such as Pandas and NumPy.
