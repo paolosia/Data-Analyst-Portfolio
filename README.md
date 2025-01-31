@@ -27,7 +27,20 @@ This repository showcases a collection of data analysis projects undertaken to d
     * **Contents:**
         * `Energy_Consumption_Data.ipynb`: Jupyter Notebook with Python analysis and visualizations.
         * `Energy_Consumption_Data.ipynb`: Power BI report file.
-        * `Energy_Consumption_and_Economic_Growth_Report.pdf.pdf`: Detailed PDF report summarizing findings, insights, and recommendations.
+        * `Energy_Consumption_and_Economic_Growth_Report.pdf`: Detailed PDF report summarizing findings, insights, and recommendations.
+
+* **Vehicle Price Market Analysis
+    * Analyzed trends in the automotive market, focusing on pricing fluctuations, vehicle condition, and mileage.
+    * Performed data cleaning, transformation, and exploratory analysis using Python.
+    * Created interactive dashboards in Power BI to visualize insights into vehicle prices, conditions, and other factors.
+    * **Contents:**
+        * `Vehicle_Sales.ipynb`: Jupyter Notebook with Python analysis and visualizations.
+        * `Vehicle_Sales_Data.pbix`: Power BI report file.
+        * `Vehicle_Sales_Data_Analysis_Report.pdf`: Detailed PDF report summarizing findings, insights, and recommendations.
+
+Vehicle_Sales_Data_Analysis.ipynb: Jupyter Notebook with Python data cleaning, exploratory analysis, and visualizations.
+Vehicle_Sales_Data.pbix: Power BI report file with interactive dashboards showcasing market trends and key insights.
+Vehicle_Price_Market_Analysis_Report.pdf: Detailed PDF report summarizing findings, methodologies, and recommendations.
 
 **Skills Demonstrated:**
 
